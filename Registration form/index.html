@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <center>
+        <div class="form-bg">
+          <div class="heading">
+            <h1>
+              <center>EMPLOYEE REGISTRATION FORM</center>
+            </h1>
+          </div>
+          <br />
+          <form>
+            <input
+              class="name"
+              type="name"
+              name="Firstname"
+              placeholder="FIRST NAME"
+            />
+            <input
+              class="name"
+              type="name"
+              name="Surname"
+              placeholder="LAST NAME"
+            />
+
+            <br /><br />
+            <input
+              type="email"
+              name="email"
+              placeholder="EMAIL-ID"
+              class="email"
+            />
+            <br /><br />
+            <input
+              title="mobile"
+              type="text"
+              name="country code"
+              value="+91"
+              size="2"
+              class="mobile-code"
+            />
+            <input
+              type="text"
+              name="phone"
+              placeholder="MOBILE NUMBER"
+              class="mobile-no"
+            />
+            <br /><br />
+            <label for="dob" class="dob">DATE OF BIRTH</label>
+            <br />
+            <input title="dob" type="date" name="dob" class="email" />
+            <br /><br />
+
+            <div>
+              <label class="gender">GENDER</label>
+              <br />
+              <table>
+                <tr>
+                  <td class="gender-button">
+                    <input title="female" type="radio" name="gender" />Female
+                  </td>
+                  <td class="gender-button">
+                    <input title="male" type="radio" name="gender" />Male
+                  </td>
+                  <td class="gender-button">
+                    <input title="trans" type="radio" name="gender" />Trans
+                  </td>
+                  <td class="gender-button">
+                    <input title="decline" type="radio" name="gender" />Decline
+                    to specify
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <label class="quali">QUALIFICATION</label>
+            <br />
+
+            <table>
+              <tr>
+                <td class="quali-button">
+                  <input title="PHD" type="checkbox" name="quali" />PHD
+                </td>
+
+                <td class="quali-button">
+                  <input title="PG" type="checkbox" name="quali" />PG
+                </td>
+                <td class="quali-button">
+                  <input title="UG" type="checkbox" name="quali" />UG
+                </td>
+
+                <td class="quali-button">
+                  <input title="hse" type="checkbox" name="quali" />HSE
+                </td>
+                <td class="quali-button">
+                  <input title="sslc" type="checkbox" name="quali" />SSLC
+                </td>
+              </tr>
+            </table>
+
+            <label class="quali">COURSE/STREAM</label>
+            <br />
+            <select title="course" class="course-btn">
+              <option value="course">COURSE</option>
+              <option value="BCA">BCA</option>
+              <option value="BBA">BBA</option>
+              <option value="BCOM">BCOM</option>
+              <option value="B.Tech">B.Tech</option>
+              <option value="MCA">MCA</option>
+              <option value="MBA">MBA</option>
+              <option value="Mcom">Mcom</option>
+              <option value="M.Tech">M.Tech</option>
+            </select>
+            <br /><br />
+
+            <div>
+              <label class="quali">ACADEMIC RECORDS</label>
+              <br /><br />
+              <table>
+                <tr>
+                  <th>Mark-10th</th>
+                  <th>Mark-12th</th>
+                  <th>CGPA-UG</th>
+                  <th>CGPA-PG</th>
+                </tr>
+                <tr>
+                  <td><input title="mark" class="marks" type="text" /></td>
+                  <td><input title="mark" class="marks" type="text" /></td>
+                  <td><input title="mark" class="marks" type="text" /></td>
+                  <td><input title="mark" class="marks" type="text" /></td>
+                </tr>
+              </table>
+            </div>
+            <br /><br />
+            <label class="quali" for="address">ADDRESS</label>
+            <br />
+            <input title="address" type="text" name="" id="addr-textarea" />
+
+            <br /><br />
+            <br />
+            <br />
+            <button type="submit">
+              <span>Submit</span>
+              <div class="liquid"></div>
+            </button>
+          </form>
+        </div>
+      </center>
+    </div>
+  </body>
+</html>
