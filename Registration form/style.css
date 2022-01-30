@@ -33,7 +33,7 @@ body {
   height: 30px;
   margin-top: 3rem;
   margin-right: 25px;
-  color: greenyellow;
+  color: ghostwhite;
   background: transparent;
   padding: 4px;
   font-size: 17px;
@@ -47,7 +47,7 @@ body {
   width: 546px;
   height: 30px;
   margin-right: 25px;
-  color: greenyellow;
+  color: ghostwhite;
   background: transparent;
   padding: 4px;
   outline-color: transparent;
@@ -60,7 +60,7 @@ body {
 .mobile-code {
   margin-top: 0.5rem;
   height: 40px;
-  color: greenyellow;
+  color: ghostwhite;
   background: transparent;
   margin-right: 20px;
   outline-color: transparent;
@@ -76,7 +76,7 @@ body {
   margin-top: 0.5rem;
   width: 452px;
   height: 40px;
-  color: greenyellow;
+  color: ghostwhite;
   background: transparent;
   outline-color: transparent;
   font-size: 17px;
@@ -102,7 +102,7 @@ body {
 }
 
 .gender-button {
-  color: greenyellow;
+  color: ghostwhite;
   margin-top: 0.5rem;
   padding: 2rem;
   font-size: 16px;
@@ -115,7 +115,7 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .quali-button {
-  color: greenyellow;
+  color: ghostwhite;
   margin-top: 0.5rem;
   padding: 2rem;
   font-size: 16px;
@@ -126,7 +126,7 @@ body {
   width: 546px;
   height: 45px;
   margin-right: 25px;
-  color: greenyellow;
+  color: ghostwhite;
   background: transparent;
   padding: 4px;
   font-size: 17px;
@@ -146,7 +146,7 @@ th {
 }
 .marks {
   background-color: transparent;
-  color: greenyellow;
+  color: ghostwhite;
   padding: 3px;
   border-style: solid;
   border-radius: 0.2rem;
@@ -159,7 +159,7 @@ th {
   width: 600px;
   height: 100px;
   margin-right: 20px;
-  color: greenyellow;
+  color: ghostwhite;
   background: transparent;
   padding: 4px;
   outline-color: transparent;
@@ -240,16 +240,16 @@ button:hover .liquid {
 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: greenyellow;
+  color: ghostwhite;
   opacity: 1; /* Firefox */
 }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: greenyellow;
+  color: ghostwhite;
 }
 
 ::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: greenyellow;
+  color: ghostwhite;
 }
