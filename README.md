@@ -1,2 +1,2 @@
 # Daily-Projects
-storing all my projects
+storing all my daily projects
